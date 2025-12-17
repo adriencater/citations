@@ -10,41 +10,54 @@
 	
 		/* Typo */
 		body {
-			font-family: "Public Sans", sans-serif;
+			font-family: "Helvetica", sans-serif;
 		}
 		h1 { 
-			font-size: 8vw;
+			font-size: 6vw;
 			letter-spacing: -0.02em;
 		}
 
-
-
 		/* Couleur */
 		body {
-			background-color: blue;
-			color: white;
+			background-color: white;
+			color: black;
 		}
-
 
 		/* Mise en page */
 		body {
-			min-height: 100vh;
+			margin:0;
+			padding: 2rem;
 			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
+			gap: 2rem;
+			flex-wrap: wrap;
+			/* flex-direction: column; */
 		}
-		h1 { max-width: 15ch; }
+		body > div {
+			width: 128px;
+			aspect-ratio: 1;
+			border: 1px solid red;
+			padding: 1rem;
+		}
 
 	</style>
 
 </head>
 <body>
-	<h1>“No matter how cool your interface is, it would be better if there were less of it.”</h1>
-	<p>– Alan Cooper</p>
-	
+	<div>“</div>
+	<div>Don’t </div>
+	<div>be </div>
+	<div>governed </div>
+	<div>by </div>
+	<div>the </div>
+	<div>grid, </div>
+	<div><b>govern</b> </div>
+	<div><b>the</b> </div>
+	<div><b>grid.</b></div>
+	<div>”</div>
+	<div>Massimo </div>
+	<div>Vignelli</div>
+
 	<link rel="stylesheet" href="navigation.css">
 	<nav><a href="index.html">retour</a></nav>
-	
 </body>
 </html>
